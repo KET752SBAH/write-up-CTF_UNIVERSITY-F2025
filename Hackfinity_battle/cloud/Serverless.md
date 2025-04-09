@@ -7,8 +7,8 @@ import boto3
 import subprocess
 
 # Configure AWS CLI (if not already configured)
-subprocess.run(["aws", "configure", "set", "aws_access_key_id", "AKIAW3MEEAJXEHALYRUS"])
-subprocess.run(["aws", "configure", "set", "aws_secret_access_key", "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"])
+subprocess.run(["aws", "configure", "set", "aws_access_key_id", " "])
+subprocess.run(["aws", "configure", "set", "aws_secret_access_key", " "])
 subprocess.run(["aws", "configure", "set", "region", "us-east-1"])
 
 # List all versions of admin/index.html
